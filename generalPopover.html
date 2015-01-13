@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>EcoBase</title>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">  
+    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/bootstrap-select.css" rel="stylesheet">
+    <link href="css/getStarted.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    
+
+</head>
+<script>
+$('[data-toggle="popover"]').popover();
+						$('body').on('click', function (e) {
+						    $('[data-toggle="popover"]').each(function () {
+						        //the 'is' for buttons that trigger popups
+						        //the 'has' for icons within a button that triggers a popup
+						        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+						            $(this).popover('hide');
+						        }
+						    });
+						});
+</script>
+<br>
+<br>
+<br>
+<br>
+
+<div class="bs-example tooltip-demo">
+	<div class="bs-example-tooltips">
+		<button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="top" data-content="Enter your organization's name, address and website." data-original-title="" title="">
+			<span class="glyphicon glyphicon-question-sign"></span>
+		</button>
+	</div>
+</div>
+
+
+

@@ -1,0 +1,324 @@
+<!DOCTYPE html>   
+    <html lang="en">   
+      <head>   
+        <meta charset="utf-8">   
+        <title>Lalalalala</title>   
+        <meta name="description" content="Twitter Bootstrap Basic Tab Based Navigation Example">  
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">  
+        
+        <link href="css/offsetStyle.css" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      </head>  
+            <body>  
+                <div class="container">  
+                  
+                    <ul class="nav nav-tabs" style="font-size:initial; width:auto">  
+                        <li class="nav-tab-main active"><a href="#CarbonOffsets" style="font-size:larger">Carbon Offsets</a> </li>   
+                        <li class="nav-tab-main"><a href="#CarbonNeutral" style="font-size:larger">Go Carbon Neutral</a></li>  
+                    </ul>  
+                  
+                    <div id="my-tab-content" class="tab-content">
+                      <div class="tab-pane active" id="CarbonOffsets">
+                        <table>
+                            <tr>
+                                <td>
+                                    <span id="lime">
+                                        <h6> Calculating the cost of <br>purchasing carbon offsets </h6>
+                                    </span>
+                                <td>
+                                    <span class="drop down 1">
+                                    1. <select class="dd1" id="sol">
+                                        <option>Select organization level</option>
+                                        <option>All</option>
+                                        <option>Seattle</option>
+                                        <option>Vancouver</option>
+                                        </select>
+                                </td>
+                                <td>
+                                    <span class="drop down 3">
+                                        3. <select class="dd2" id="year">
+                                            <option>Year</option>
+                                            <option>2000</option>
+                                            <option>2001</option>
+                                            <option>2002</option>
+                                            <option>2003</option>
+                                            <option>2004</option>
+                                            <option>2005</option>
+                                            <option>2006</option>
+                                            <option>2007</option>
+                                            <option>2008</option>
+                                            <option>2009</option>
+                                            <option>2010</option>
+                                            <option>2011</option>
+                                            <option>2012</option>
+                                            <option>2013</option>
+                                            <option>2014</option>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            </select>
+                                    </span> 
+                                </td>
+                                <td>
+                                    <h5>Calculated emissions</h5>
+                                </td>
+                                <td>
+                                    <h5>Cost to Offset</h5>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="drop down 2">
+                                        2.<select class="dd3" id="source">
+                                            <option>Select emissions sources</option>
+                                            <option>Vancouver</option>
+                                            <option>Seattle</option>
+                                        </select>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="drop down 4">
+                                        4.<select class="dd4" id="cost">
+                                            <option>Select a carbon cost</option>
+                                            <option>$5</option>
+                                            <option>$6</option>
+                                            <option>$7</option>
+                                            <option>$8</option>
+                                            <option>$9</option>
+                                            <option>$10</option>
+                                            <option>$11</option>
+                                            <option>$12</option>
+                                            <option>$13</option>
+                                            <option>$14</option>
+                                            <option>$14</option>
+                                            <option>$15</option>
+                                            <option>$16</option>
+                                            <option>$17</option>
+                                            <option>$18</option>
+                                            <option>$19</option>
+                                            <option>$20</option>
+                                            <option>$21</option>
+                                            <option>$22</option>
+                                            <option>$23</option>
+                                            <option>$24</option>
+                                            <option>$25</option>
+                                            <option>$26</option>
+                                            <option>$27</option>
+                                            <option>$28</option>
+                                            <option>$29</option>
+                                            <option>$30</option>
+                                            <option>$31</option>
+                                            <option>$31</option>
+                                            <option>$32</option>
+                                            <option>$33</option>
+                                            <option>$34</option>
+                                            <option>$35</option>
+                                            <option>$36</option>
+                                            <option>$37</option>
+                                            <option>$38</option>
+                                            <option>$39</option>
+                                            <option>$40</option>
+                                            <option>$41</option>
+                                            <option>$42</option>
+                                            <option>$43</option>
+                                            <option>$44</option>
+                                            <option>$45</option>
+                                            <option>$46</option>
+                                            <option>$47</option>
+                                            <option>$48</option>
+                                            <option>$49</option>
+                                            <option>$50</option>
+                                        </select>
+                                    </span>  
+                                </td>
+                                <td>
+                                    <h4><span class="blue">0.0 Tonnes</span></h4>
+                                </td>
+                                <td>
+                                    <h4><span class="blue">$0</span></h4>
+                                </td>
+                            </tr>
+                        </table>  
+                        <div class="verticalLine"></div>
+
+
+                <div id="paragraph">
+                    <p>A carbon offset is an emissions reduction credit you can purchase to compensate for greenhouse gas emissions. One tonne of carbon offset equals one tonne of greenhouse gases reduced from high-quality projects like energy efficiency programs or fuel switching systems. For example, an energy efficiency carbon reduction project can be used to balance your emissions from another source, such as a plane trip. The bottom line is that your organization can buy offsets to counteract greenhouse gases that it cannot avoid emitting.
+                    </p>
+                    <p>Once you've calculated the cost to offset your organization's greennhouse gas emissions, <a href="mailto:info@ecobase.net"> contact us</a> to find out more about purchasing carbon offsets.
+                    </p>
+                </div>
+            </div> <!--closes CarbonOffsets class-->
+                <div class="tab active" id="CarbonNeutral">
+                        <table>
+                            <tr>
+                                <td>
+                                    <span id="lime">
+                                        <h5> Calculating the cost of <br>purchasing carbon offsets </h5>
+                                    </span>
+                                <td>
+                                    <span class="drop down 1">
+                                    1. <select class="dd1" id="sol">
+                                            <option>Select organization level</option>
+                                            <option>All</option>
+                                            <option>Seattle</option>
+                                            <option>Vancouver</option>
+                                            </select>
+                                </td>
+                                <td>
+                                    <span class="drop down 3">
+                                    3. <select class="dd2" id="year">
+                                            <option>Year</option>
+                                            <option>2000</option>
+                                            <option>2001</option>
+                                            <option>2002</option>
+                                            <option>2003</option>
+                                            <option>2004</option>
+                                            <option>2005</option>
+                                            <option>2006</option>
+                                            <option>2007</option>
+                                            <option>2008</option>
+                                            <option>2009</option>
+                                            <option>2010</option>
+                                            <option>2011</option>
+                                            <option>2012</option>
+                                            <option>2013</option>
+                                            <option>2014</option>
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                            </select>
+                                    </span> 
+                                </td>
+                                <td>
+                                    <h5>Calculated emissions</h5>
+                                </td>
+                                <td>
+                                    <h5>Cost to Offset</h5>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <span class="drop down 2">
+                                        2.<select class="dd3" id="source">
+                                            <option>Select emissions sources</option>
+                                            <option>Vancouver</option>
+                                            <option>Seattle</option>
+                                        </select>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="drop down 4">
+                                        4.<select class="dd4" id="cost">
+                                            <option>Select a carbon cost</option>
+                                            <option>$5</option>
+                                            <option>$6</option>
+                                            <option>$7</option>
+                                            <option>$8</option>
+                                            <option>$9</option>
+                                            <option>$10</option>
+                                            <option>$11</option>
+                                            <option>$12</option>
+                                            <option>$13</option>
+                                            <option>$14</option>
+                                            <option>$14</option>
+                                            <option>$15</option>
+                                            <option>$16</option>
+                                            <option>$17</option>
+                                            <option>$18</option>
+                                            <option>$19</option>
+                                            <option>$20</option>
+                                            <option>$21</option>
+                                            <option>$22</option>
+                                            <option>$23</option>
+                                            <option>$24</option>
+                                            <option>$25</option>
+                                            <option>$26</option>
+                                            <option>$27</option>
+                                            <option>$28</option>
+                                            <option>$29</option>
+                                            <option>$30</option>
+                                            <option>$31</option>
+                                            <option>$31</option>
+                                            <option>$32</option>
+                                            <option>$33</option>
+                                            <option>$34</option>
+                                            <option>$35</option>
+                                            <option>$36</option>
+                                            <option>$37</option>
+                                            <option>$38</option>
+                                            <option>$39</option>
+                                            <option>$40</option>
+                                            <option>$41</option>
+                                            <option>$42</option>
+                                            <option>$43</option>
+                                            <option>$44</option>
+                                            <option>$45</option>
+                                            <option>$46</option>
+                                            <option>$47</option>
+                                            <option>$48</option>
+                                            <option>$49</option>
+                                            <option>$50</option>
+                                        </select>
+                                    </span>  
+                                </td>
+                                <td>
+                                    <h4><span class="blue">0.0 Tonnes</span></h4>
+                                </td>
+                                <td>
+                                    <h4><span class="blue">$0</span></h4>
+                                </td>
+                            </tr>
+                        </table>  
+                        <div class="verticalLine"></div>
+
+
+                    <div id="paragraph">
+                        <p>Your organization may wish to become fully carbon neutral by purchasing offsets to counteract all your emissions. The commitement to become carbon neutral can pay off. Carbon neutral companies often are able to increase market share and revenue by attracting environmentally conscious consumers and leveraging government customer segments. Additional benefits can include enhanced customer loyality, staff recruitment and retention, brand value and leadership.</p>
+
+                        <p><a href="mailto:info@ecobase.net">Contact us</a> to find out more about how your business can achieve carbon neutrality.</p>
+                    </div>
+                </div><!--closes CarbonNeutral class-->
+            </div> <!-- container -->
+              
+              <script type="text/javascript">
+                         
+                
+                $('.nav-tab-main').on('click', function(e){
+               // e.preventDefault();  //Prevent the default click action (in this case, putting the #tabName in the URL)
+
+                $('.active').removeClass('active');  //Scan all tabs and panes for the 'active' class and remove it
+                $(this).addClass('active');  //Give the 'active' class to the clicked tab
+             
+                var tabPaneID = $(this).children("a").attr('href'); //Extract the href from the 'a' element.  
+                $(tabPaneID).addClass('active');  //Variable already in the form #tabID because we pulled it from an href, set the pane with this ID to active.
+                });
+              </script>
+
+              
+            </body>  
+           
+
+   </html>  
+           
+          

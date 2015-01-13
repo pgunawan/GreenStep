@@ -1,0 +1,62 @@
+.left{
+	float: left;
+}
+
+.clearfix:after{
+	clear: both;
+	display: block;
+	font-size: 0px;
+	height: 0px;
+	line-height: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.middle, form, #corporate, .top-tooltip, .form-controls{
+	width: 100%
+}
+
+.top-tooltip{
+	border-bottom: 2px solid #eee;
+}
+
+.top-tooltip p{
+	color: #AFD464;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+h4{
+	color: #AFD464;
+	margin-top: 20px;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 2px;
+	width: 100%
+}
+
+label{
+	cursor: pointer;
+}
+
+/*
+input.required:after{
+	content: " *";
+	font-size: 20px;
+	margin-right: 4px;
+}
+*/
+.form-controls button{
+	float: right;
+	margin: 1% 13% 0 0;
+}
+
+.popover {
+  max-width: 60%;
+  width: auto;
+}
+.required:after { content:" *"; }
+
+

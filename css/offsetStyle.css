@@ -1,0 +1,16 @@
+span h5{
+	color:green;
+}
+
+td {
+	padding: 2%;
+}
+
+div.horizontalLine {
+	 clear:both;
+	width:100%;
+	background-color:#d1d1d1;
+	height:1px;
+	margin-top:5px;
+	margin-bottom:5px;
+}

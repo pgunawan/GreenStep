@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h4 {
+    padding: 10px;
+    margin-left: 5px;
+    color: #AFD464;
+}
+h4.result {
+    margin-left: 5%;
+    color: #AFD464;
+
+}
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+table{
+  margin-left: 1em;
+}
+hr {
+  border-top: 3px solid #eee;
+  margin-top: 2.7%;
+}
+body {
+    background: #fff; 
+}
+#page-wrap {
+  width: 1024px;
+  height: 768px;
+}
+    .tabs {
+      position: relative;   
+      min-height: 200px; /* This part sucks */
+      clear: both;
+      margin: 0px 0;      
+    }
+    .tab {
+      /*float: left; */     
+       height: 41px; 
+    }
+    .tab label {
+      background: #fff; 
+      padding: 10px; 
+      margin-left: 5px;
+      position: relative;
+      left: 1px;
+      right: 0px;
+      width: 300px;
+      display: block;
+    }
+
+    .tab label:hover{
+        color: #AFD464;
+    }
+
+    .tab [type=radio] {
+      display: none;   
+    }
+    .content {
+      position: absolute;
+      top: 0px;
+      left: 350px; /*vertical bar width*/
+      background: #fff;
+      right: 0;
+      bottom: 0;
+      padding-left: 20px;
+      border-left: 1px solid #ccc;
+    }
+    [type=radio]:checked ~ label {
+      background: #fff;
+      color: #AFD464;
+      z-index: 2;
+    }
+    [type=radio]:checked ~ label ~ .content {
+      z-index: 1;
+    }
