@@ -2,14 +2,16 @@
 <head>
 <title>EcoBase</title>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">  
-    <link href="css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-select.css" rel="stylesheet">
     <link href="css/getStarted.css" rel="stylesheet">
-    <link href="css/reveal.css" rel="stylesheet" >   	
+    <link href="css/reveal.css" rel="stylesheet" >
+    <link href="css/excelcss.css" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-select.js"></script>
-	<script type="text/javascript" src="js/ecoAjax.js"></script> 
+    <script type="text/javascript" src="js/excelscript.js"></script>
+      
 </head>
 <body>
 <div class="container">
